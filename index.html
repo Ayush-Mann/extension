@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/style.css">
+    <!-- <link rel="stylesheet" href="assets/stylesheet/style.css"> -->
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,500,600,700&display=swap" rel="stylesheet">
+    <title>Extension</title>
+</head>
+    <div class="topdiv">
+        <div class="main-wrapper">
+            <!-- time -->
+            <div class="timer">
+                <div class="timeDisplay">
+                    <div class="timeBolck">
+                        <div class="timeDigit hour" >00</div>
+                        <div class="stdTimeHr timeText">Hour</div>
+                    </div>
+                    <div class="timeBolck">
+                        <div class="timeDigit minute">00</div>
+                        <div class="stdTimeMin timeText">Min</div>
+                    </div>
+                    <div class="timeBolck">
+                        <div class="timeDigit second">00</div>
+                        <div class="stdTimeSec timeText">Sec</div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="quote-wrapper">
+                <h2>Welcome</h2><span><input style = "display: none;" class="inputName" type="text"></span>
+                <ul class="ul1"></ul>
+                <a class="twitter" href="#">Share</a>
+            </div>
+            <div class="learn-wrapper">
+                <ul class="ul2"></ul>
+            </div>
+            <div class="todo-wrapper-all">
+                <div class="div_input">
+                    <i class="fas fa-chevron-circle-down select_all"></i><input class= "input_todo" type="text" placeholder="what needs to be done?">
+                </div>  
+                <ul class="ulist">
+                </ul>
+                <div class="layout">
+                <div><span id="itemsleft">0</span><span>Items left</span></div>
+                <button class="all">All</button>
+                <button class="active">Active</button>
+                <button class="completed">Completed</button>
+                <button class="clear_comp">Clear Completed</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <body>
+
+    <script src="assets/main.js"></script>
+</body>
+</html>
